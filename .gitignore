@@ -2,17 +2,17 @@
 
 *.exe
 *.pdb
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-gui
-src/litecoin-node
-src/litecoin-tx
-src/litecoin-wallet
+src/onremit
+src/onremitd
+src/onremit-cli
+src/onremit-gui
+src/onremit-node
+src/onremit-tx
+src/onremit-wallet
 src/test/fuzz/*
 !src/test/fuzz/*.*
-src/test/test_litecoin
-src/qt/test/test_litecoin-qt
+src/test/test_onremit
+src/qt/test/test_onremit-qt
 
 # autoreconf
 Makefile.in
@@ -94,8 +94,8 @@ src/qt/bitcoin-qt.includes
 *.qm
 Makefile
 !depends/Makefile
-src/qt/litecoin-qt
-Litecoin-Qt.app
+src/qt/onremit-qt
+OnRemit-Qt.app
 background.tiff*
 
 # Qt Creator
@@ -103,7 +103,7 @@ Makefile.am.user
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+onremit-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -118,7 +118,7 @@ releases
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_onremit.coverage/
 total.coverage/
 fuzz.coverage/
 coverage_percent.txt
